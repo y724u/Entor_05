@@ -1,6 +1,13 @@
 @charset "UTF-8";
 @import "reset";
 
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
 input[type=checkbox] {
   display: none;
 }
@@ -48,3 +55,4 @@ input[type=checkbox]:checked + .checkbox::after {
 input[type=checkbox]:checked + .checkbox::before {
   background-color: #CAD830;
 }
+
